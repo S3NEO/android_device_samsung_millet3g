@@ -1,2 +1,0 @@
-add_lunch_combo lineage_millet3g-eng
-add_lunch_combo lineage_millet3g-userdebug

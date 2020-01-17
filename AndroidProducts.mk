@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_millet3g.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_millet3g-user \
+    lineage_millet3g-userdebug \
+    lineage_millet3g-eng
