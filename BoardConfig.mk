@@ -19,14 +19,14 @@ include device/samsung/millet-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := millet,millet3g
 
+# HIDL
+DEVICE_MANIFEST_FILE += device/samsung/millet3g/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_millet3g_defconfig
 
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
-
-# HIDL
-DEVICE_MANIFEST_FILE += device/samsung/millet3g/manifest.xml
 
 # inherit from the proprietary version
 -include vendor/samsung/millet3g/BoardConfigVendor.mk
