@@ -29,4 +29,4 @@ TARGET_KERNEL_CONFIG := lineage_millet3g_defconfig
 include $(COMMON_PATH)/radio/single/board.mk
 
 # inherit from the proprietary version
--include vendor/samsung/millet3g/BoardConfigVendor.mk
+include vendor/samsung/millet3g/BoardConfigVendor.mk
