@@ -24,6 +24,7 @@ DEVICE_MANIFEST_FILE += device/samsung/millet3g/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_millet3g_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG := lineage_millet3g_recovery_defconfig
 
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
